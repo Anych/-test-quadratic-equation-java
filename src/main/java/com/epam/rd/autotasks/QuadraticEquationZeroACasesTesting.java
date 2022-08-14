@@ -7,6 +7,7 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
+import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
@@ -32,6 +33,6 @@ public class QuadraticEquationZeroACasesTesting {
     }
     @Test(expected = IllegalArgumentException.class)
     public void testNoRootsCase() {
-        assertEquals(new IllegalArgumentException(), quadraticEquation.solve(a, b, c));
+        quadraticEquation.solve(a, b, c);
     }
 }
