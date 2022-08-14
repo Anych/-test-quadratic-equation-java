@@ -26,10 +26,10 @@ public class QuadraticEquationTwoRootsCasesTesting {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {1, 5, 4, "-1.0 -4.0"},
-                {2, 6, 1.375, "-0.25 -2.75"},
-                {1.625, 7, 2, "-0.3076923076923077 -4.0"},
-                {4, 8, 1.75, "-0.25 -1.75"},
+                {1, 5, 4, "-4.0 -1.0"},
+                {2, 6, 1.375, "-2.75 -0.25"},
+                {1.625, 7, 2, "-4.0 -0.3076923076923077"},
+                {4, 8, 1.75, "-1.75 -0.25"},
         });
     }
     @Test
