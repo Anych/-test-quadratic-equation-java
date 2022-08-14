@@ -11,7 +11,8 @@ public class QuadraticEquation {
         {
             double root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
             double root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
-            return root1 + " " + root2;
+
+            return String.format("%s %s", root1, root2);
         }
         else if (discriminant == 0)
         {

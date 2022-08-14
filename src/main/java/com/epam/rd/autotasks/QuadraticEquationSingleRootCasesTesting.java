@@ -33,7 +33,7 @@ public class QuadraticEquationSingleRootCasesTesting {
         });
     }
     @Test
-    public void testNoRootsCase() {
+    public void testSingleRootsCase() {
         assertEquals(Double.toString(expected), quadraticEquation.solve(a, b, c));
     }
 }

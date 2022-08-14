@@ -32,7 +32,7 @@ public class QuadraticEquationZeroACasesTesting {
         });
     }
     @Test(expected = IllegalArgumentException.class)
-    public void testNoRootsCase() {
+    public void testZeroCase() {
         quadraticEquation.solve(a, b, c);
     }
 }
